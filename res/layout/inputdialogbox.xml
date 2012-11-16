@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dip" >
+
+    <EditText
+        android:id="@+id/edittextloginname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/logindialogname" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edittextloginpassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edittextloginname"
+        android:layout_alignRight="@+id/edittextloginname"
+        android:layout_below="@+id/edittextloginname"
+        android:hint="@string/logindialogpass"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

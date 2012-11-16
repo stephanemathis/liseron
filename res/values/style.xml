@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Header" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/darkgreen_to_lightgreen</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="Headernogradiant" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/darkgreen</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="Title" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:background">@drawable/darkgreen_to_lightgreen</item>
+    </style>
+
+    <style name="Description">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="speciesinformationwarningstyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#C10003</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="buttonsyncallwidth">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/selectorbuttonbackground1</item>
+        <item name="android:textColor">@color/textcolorlist</item>
+    </style>
+
+    <style name="lineseparator">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@drawable/lineseparator</item>
+    </style>
+
+    <style name="lineseparator2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@drawable/lineseparator2</item>
+    </style>
+
+    <style name="buttonstyle1">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:background">@drawable/selectorbuttonbackground1</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@color/textcolorlist</item>
+    </style>
+
+    <style name="activity1">
+        <item name="android:background">@color/green</item>
+    </style>
+
+    <style name="listview1">
+        <item name="android:divider">@drawable/lineseparator</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="listview2">
+        <item name="android:divider">@drawable/lineseparator</item>
+        <item name="android:dividerHeight">2dp</item>
+    </style>
+
+    <style name="listtitle">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textcolorlist</item>
+        <item name="android:paddingLeft">5dp</item>
+   		<item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="listcontent">
+        <item name="android:textColor">@color/textcolorlist</item>
+        <item name="android:paddingLeft">5dp</item>
+   		<item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="buttonstylesmall">
+        <item name="android:background">@drawable/selectorbuttonsmallbackground1</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColor">@color/textcolorlist</item>
+    </style>
+
+    <style name="edittext1">
+        <item name="android:background">@drawable/selectoredittextborder</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColor">@color/textcolorlist</item>
+    </style>
+
+    <style name="spinner1">
+        <item name="android:background">@drawable/selectorspinnerborder</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="LiseronTheme" parent="android:Theme">
+        <item name="android:spinnerItemStyle">@style/LiseronSpinnerItem</item>
+    </style>
+
+    <style name="LiseronSpinnerItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/LiseronTextAppearanceSpinnerItem</item>
+    </style>
+
+    <style name="LiseronTextAppearanceSpinnerItem" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+    
+      <style name="textpadding">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+</resources>

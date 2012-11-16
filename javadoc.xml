@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" author="true" classpath="libs/android-support-v4.jar;lib/ormlite-core-4.38.jar;C:\Program Files (x86)\Android\android-sdk\tools\support\annotations.jar;lib/ormlite-android-4.38.jar;lib/httpmime-4.2.jar;C:\Program Files (x86)\Android\android-sdk\platforms\android-13\android.jar" destdir="doc" doctitle="LiseronDoc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="org.apache.http.entity.mime.content,fr.rocknscrum.liseronmobile.custom,fr.rocknscrum.liseronmobile,fr.rocknscrum.liseronmobile.database,fr.rocknscrum.liseronmobile.observation,fr.rocknscrum.liseronmobile.classification,org.apache.http.entity.mime,fr.rocknscrum.liseronmobile.tools" source="1.6" sourcepath="src;gen" splitindex="true" use="true" version="true">
+            <link href="file:/C:/Program Files (x86)/Android/android-sdk/docs/reference"/>
+        </javadoc>
+    </target>
+</project>

@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/activity1"
+    android:layout_width="fill_parent"
+    android:id="@+id/mainlayout"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/welcome"
+            style="@style/Header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/welcome" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+        
+        
+            <Button
+                android:id="@+id/buttonMyObservation"
+                style="@style/buttonstyle1"
+                android:layout_height="wrap_content"
+                android:text="@string/myobservation" />
+
+        <Button
+            style="@style/buttonstyle1"
+            android:id="@+id/buttonNewObservation"
+            android:layout_height="wrap_content"
+            android:text="@string/newObservation"
+             />
+
+        <Button
+            android:id="@+id/buttonHelpAuthentification"
+            style="@style/buttonstyle1"
+            android:layout_height="wrap_content"
+            android:text="@string/authentificationText" />
+        
+        <Button
+            android:id="@+id/buttonSync"
+            style="@style/buttonstyle1"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonToSync" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+
+        <ToggleButton
+            android:id="@+id/toggleButtonlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nothing"
+            android:textOff="Associer"
+            android:textOn="Deconnexion" />
+
+        <TextView
+            android:textColor="@color/grey"
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/homelogintext" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/lineseparator"
+        android:layout_above="@+id/footer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/konami"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footer"
+        android:layout_alignParentRight="true"
+        android:text="@string/nothing" />
+
+</RelativeLayout>

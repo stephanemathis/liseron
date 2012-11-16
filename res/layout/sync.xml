@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    style="@style/activity1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+                    <TextView
+                android:id="@+id/speciesinformationheader"
+                style="@style/Headernogradiant"
+                android:text="@string/buttonToSync" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="30dp" >
+
+            <TextView
+                android:id="@+id/textViewSync1"
+                style="@style/Title"
+                android:text="@string/synctitleform" />
+
+            <TextView
+                android:id="@+id/textViewSyncForm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="textcolor1"
+                android:text="@string/nothing" />
+
+            <Button
+                android:id="@+id/buttonSyncForm"
+                style="@style/buttonsyncallwidth"
+                android:text="@string/checkforupdate" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="30dp" >
+
+            <TextView
+                android:id="@+id/textViewSync2"
+                style="@style/Title"
+                android:text="@string/synctitlespecies" />
+
+            <TextView
+                android:id="@+id/textViewSyncSpecies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="textcolor1"
+                android:text="@string/nothing" />
+
+            <Button
+                android:id="@+id/buttonSyncSpecies"
+                style="@style/buttonsyncallwidth"
+                android:text="@string/checkforupdate" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="30dp" >
+
+            <TextView
+                android:id="@+id/textViewSync3"
+                style="@style/Title"
+                android:text="@string/synctitleobservation" />
+
+            <TextView
+                android:id="@+id/textViewSyncObservation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="textcolor1"
+                android:text="@string/nothing" />
+
+            <Button
+                android:id="@+id/buttonSyncObservation"
+                style="@style/buttonsyncallwidth"
+                android:text="@string/sendobservation" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

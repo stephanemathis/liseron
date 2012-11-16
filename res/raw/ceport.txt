@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<campaigns>
+  <campaign id="4" name="Nos jardins de ville" description="Campagne qui se concentre sur la vie de nos parcs" start="01/06/12" end="14/11/12">
+    <listspecies>
+      <species id="2649" />
+      <species id="2970" />
+      <species id="1828" />
+      <species id="191" />
+      <species id="2429" />
+      <species id="2496" />
+    </listspecies>
+    <forms>
+      <form id="1" name="testForm" description="Test de description de formulaire.&#xD;&#xA;Héhéhéhé !">
+        <fields>
+          <field id="1" name="champ" type="text" choices="" required="1" />
+          <field id="2" name="champ2" type="list" choices="machin;truc;bidule" required="0" />
+        </fields>
+      </form>
+      <form id="2" name="testForm2" description="coucou !!!!" />
+    </forms>
+  </campaign>
+  <campaign id="7" name="La vie des escargots" description="Oh oui, Ces charmantes créatures ont déjà la chance d'être hermaphrodite, elles ont en plus leur moment de gloire dans l'application Liseron !" start="04/06/12" end="19/06/12">
+    <listspecies>
+      <species id="141" />
+      <species id="562" />
+      <species id="1917" />
+      <species id="1918" />
+      <species id="1158" />
+      <species id="4187" />
+    </listspecies>
+    <forms>
+      <form id="12" name="Escargot de Soleil" description="Ceux là par contre, apparaissent au grand jour, souvent après une bonne pluie !">
+        <fields>
+          <field id="24" name="Vivacité" type="text" choices="" required="0" />
+          <field id="23" name="Lieu d'Observation" type="text" choices="" required="0" />
+          <field id="22" name="Taille" type="numeric" choices="" required="0" />
+        </fields>
+      </form>
+      <form id="11" name="Escargots de Lune" description="Les escargots de lune n'apparaissent, comme le nom l'indique, qu'aux moments de pleine lune !">
+        <fields>
+          <field id="21" name="Taille" type="list" choices="Petit;Grand;Moyen" required="0" />
+          <field id="20" name="Couleur" type="list" choices="vert;rouge;jaune;autre" required="0" />
+        </fields>
+      </form>
+    </forms>
+  </campaign>
+  <campaign id="8" name="Les animaux de compagnies" description="Pour les chiens, chats... " start="30/06/12" end="24/05/12">
+    <listspecies>
+      <species id="1595" />
+      <species id="1875" />
+      <species id="1876" />
+      <species id="3494" />
+    </listspecies>
+  </campaign>
+  <campaign id="14" name="Plantes des Vosges" description="Espèces rencontrées dans le massif vosgiens" start="19/06/12" end="30/06/12">
+    <listspecies>
+      <species id="2044" />
+      <species id="2537" />
+      <species id="358" />
+      <species id="2130" />
+      <species id="140" />
+      <species id="1670" />
+      <species id="1753" />
+      <species id="1988" />
+      <species id="1754" />
+      <species id="2131" />
+      <species id="1256" />
+      <species id="2123" />
+      <species id="2330" />
+      <species id="2129" />
+    </listspecies>
+    <forms>
+      <form id="15" name="Fleurs" description="">
+        <fields>
+          <field id="34" name="Couleur" type="text" choices="" required="1" />
+          <field id="33" name="Taille (en m)" type="numeric" choices="" required="0" />
+        </fields>
+      </form>
+    </forms>
+  </campaign>
+  <campaign id="16" name="Campagne de demo" description="description" start="21/06/12" end="29/06/12">
+    <listspecies>
+      <species id="2122" />
+      <species id="4043" />
+      <species id="2121" />
+      <species id="2128" />
+      <species id="2125" />
+      <species id="4187" />
+    </listspecies>
+    <forms>
+      <form id="19" name="Fleurs" description="taille et la couleur">
+        <fields>
+          <field id="38" name="couleur" type="list" choices="violette;rouge;vert" required="0" />
+          <field id="37" name="taille" type="numeric" choices="" required="0" />
+        </fields>
+      </form>
+      <form id="20" name="vide" description="" />
+    </forms>
+  </campaign>
+</campaigns>
+

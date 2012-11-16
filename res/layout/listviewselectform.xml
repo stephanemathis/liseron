@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/activity1" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selectform"
+        style="@style/Header" />
+    
+    <LinearLayout
+        android:id="@+id/lsfseparatorlist"
+        android:visibility="gone"
+        style="@style/lineseparator"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <AutoCompleteTextView
+            android:id="@+id/lsfsearchtextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:layout_weight="1"
+            android:visibility="gone"
+            style="@style/edittext1"
+            android:hint="@string/inputdialoghint" />
+
+        <Button
+            android:id="@+id/lsfsearchbutton"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="6"
+            android:visibility="gone"
+            android:text="@string/ok"
+            style="@style/buttonstylesmall" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lsflv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@style/listview1"/>
+        
+      
+ 
+</LinearLayout>

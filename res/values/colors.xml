@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="grey">#AFAFAF</color>
+   <color name="darkgrey">#898989</color>
+   <color name="green">#F5FFDB</color>
+   <color name="darkgreen">#8DBC00</color>
+   <color name="greentrans">#FFF5FFDB</color>
+   <color name="darkgreentrans">#FF8DBC00</color>
+</resources>

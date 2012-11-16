@@ -1,0 +1,86 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@style/activity1" >
+
+        <ImageView
+            android:id="@+id/lsoimageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/nothing"
+            android:layout_centerVertical="true"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:id="@+id/lsotextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/lsotitle"
+            android:text="@string/begindate"
+            style="@style/listcontent" 
+            />
+
+        <TextView
+            android:id="@+id/lsostart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/lsotextView2"
+            android:layout_alignBottom="@+id/lsotextView2"
+            android:layout_toRightOf="@+id/lsotextView2"
+            android:text="@string/nothing"
+            style="@style/listcontent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            style="@style/lineseparator2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/textView1"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_toLeftOf="@+id/lsoimageView1"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lsodesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_toLeftOf="@+id/lsoimageView1"
+            android:text="@string/nothing"
+            style="@style/listcontent" />
+
+        <TextView
+            android:id="@+id/lsotitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/nothing"
+            style="@style/listtitle" />
+
+        <TextView
+            android:id="@+id/lsoend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_toRightOf="@+id/textView1"
+            android:text="@string/nothing"
+            style="@style/listcontent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lsotextView2"
+            android:text="@string/enddate"
+            style="@style/listcontent" />
+
+    </RelativeLayout>

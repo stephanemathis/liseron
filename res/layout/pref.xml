@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/param">
+		<CheckBoxPreference android:key="hideemptyresults" android:defaultValue="false" android:title="@string/hideemptyresultstext" android:summaryOff="@string/hideemptyresultstextfalse" android:summaryOn="@string/hideemptyresultstexttrue"/>
+    	<CheckBoxPreference android:key="useinternetconnection" android:defaultValue="true" android:title="@string/useinternetconnection" android:summaryOff="@string/useinternetconnectionfalse" android:summaryOn="@string/useinternetconnectiontrue"/>
+    </PreferenceCategory>
+</PreferenceScreen>

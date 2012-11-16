@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@style/activity1" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/speciesinformationheader"
+                style="@style/Headernogradiant"
+                android:text="@string/speciesinformationtitle" />
+            
+           <TextView
+                android:id="@+id/speciesinformationwarning"
+                style="@style/speciesinformationwarningstyle"
+                android:text="@string/speciesinformationwarningtext" />
+            
+            <TextView
+                android:id="@+id/speciesinformationspeciestitle"
+                style="@style/Title"
+                android:text="@string/nothing"/>
+
+            <TextView
+                android:id="@+id/speciesinformationspeciesdescription"
+				style="@style/Description"
+                android:text="@string/nodescriptionavailable" />
+
+
+            
+             <TextView
+                android:id="@+id/speciesinformationgenretitle"
+                style="@style/Title"
+                android:text="@string/nothing"/>
+
+            <TextView
+                android:id="@+id/speciesinformationgenredescription"
+				style="@style/Description"
+                android:text="@string/nodescriptionavailable" />
+            
+            <TextView
+                android:id="@+id/speciesinformationfamilytitle"
+                style="@style/Title"
+                android:text="@string/nothing" />
+
+            <TextView
+                android:id="@+id/speciesinformationfamilydescription"
+				style="@style/Description"
+                android:text="@string/nodescriptionavailable" />
+
+        </LinearLayout>
+
+    </ScrollView>

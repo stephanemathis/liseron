@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/linearlayoutSpeciInfo"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            style="@style/activity1" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearlayoutSpeciInfo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/speciesinformationheader"
+                style="@style/Headernogradiant"
+                android:text="@string/speciesinformationtitle" />
+            
+            <TextView
+                android:id="@+id/speciesinformationwarning"
+                style="@style/speciesinformationwarningstyle"
+                android:text="@string/speciesinformationwarningtext" />
+            
+            <TextView
+                android:id="@+id/speciesinformationspeciestitle"
+                style="@style/Title"
+                android:text="@string/nothing"/>
+
+             <TextView
+                android:id="@+id/speciesinformationspeciesdescription"
+				style="@style/Description"
+                android:text="@string/nodescriptionavailable"  />
+
+             <TextView
+                android:id="@+id/speciesinformationgenretitle"
+                style="@style/Title"
+                android:text="@string/nothing"/>
+
+            <TextView
+                android:id="@+id/speciesinformationgenredescription"
+				style="@style/Description"
+                android:text="@string/nodescriptionavailable"  />
+            
+            <TextView
+                android:id="@+id/speciesinformationfamilytitle"
+                style="@style/Title"
+                android:text="@string/nothing" />
+
+            <TextView
+                android:id="@+id/speciesinformationfamilydescription"
+				style="@style/Description"
+                android:text="@string/nodescriptionavailable"  />
+
+        </LinearLayout>
+
+  	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/linearlayoutSpeciInfo4"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal" >
+   
+	    <Button
+		     android:id="@+id/buttonSpeInfoWiki"
+		     style="@style/buttonstyle1"
+		     android:layout_width="fill_parent"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:visibility="gone"
+		     android:text="@string/buttonSeeWiki" />
+     
+        <Button
+		     android:id="@+id/buttonSpeInfoGoogle"
+		     style="@style/buttonstyle1"
+		     android:layout_width="fill_parent"
+		     android:layout_height="wrap_content"
+		     android:layout_weight="1"
+		     android:visibility="gone"
+		     android:text="@string/buttonSeeGoogle" />
+   </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/linearlayoutSpeciInfo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+        	<WebView
+	            android:id="@+id/webViewSpeciesInfo"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:visibility="gone" />
+        
+        </LinearLayout>
+</LinearLayout>
+       
+</ScrollView>

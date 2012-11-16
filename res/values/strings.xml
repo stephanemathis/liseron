@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- English -->
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Liseron Mobile</string>
+    <string name="welcome">Welcome to the application : Liseron !</string>
+    <string name="newObservation">Make an observation</string>
+    <string name="authentificationText">Find a species</string>
+    <string name="quitApp">Quit</string>
+    <string name="nothing"></string>
+    <string name="speciesinformationtitle">Information form</string>
+    <string name="inputdialogtitle">Please enter some text :</string>
+    <string name="inputdialoghint">…</string>
+    <string name="menuquit">Exit</string>
+    <string name="menupref">Preferences</string>
+    <string name="wip">Work in progress</string>
+    <string name="family">Family</string>
+    <string name="genre">Genre</string>
+    <string name="species">Species</string>
+    <string name="families">Families</string>
+    <string name="genres">Genres</string>
+    <string name="speciesplurial">Species</string>
+    <string name="nogenre">There is no genre in this family</string>
+    <string name="nospecies">There is no species in this genre</string>
+    <string name="menusearch">Search</string>
+    <string name="displayallspecies">All species</string>
+    <string name="undo">Undo</string>
+    <string name="ok">OK</string>
+    <string name="dotCercle">•</string>
+    <string name="synchronizedata">Synchronize data.</string>
+    <string name="synchronizeddata">Update completed</string>
+    <string name="synchronizeLoading">Synchronization in progress</string>
+    <string name="synchronizeWait">Please wait</string>
+    <string name="nofamily">No data available, please do a synchronization.</string>
+	<string name="hideemptyresultstext">Useful information</string>
+	<string name="hideemptyresultstexttrue">Hide sent observation, non-opened campaigns and empty classification on their own list.</string>
+	<string name="hideemptyresultstextfalse">Show sent observation, non-opened campaigns and empty classification on their own list.</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="speciesinformationwarningtext">This species is threatened</string>
+	<string name="activityLoading">Loading</string>
+	<string name="noserverconnection">Server doesn\'t respond. Please try later.</string>
+	<string name="noconnectionavailable">You are not connected to the network. Action cancelled.</string>
+	<string name="buttonSeeGoogle">Images</string>
+	<string name="buttonSeeWiki">Wikipedia</string>
+	<string name="speciesinfomoredata">More information</string>
+	<string name="useinternetconnection">Use of network data</string>
+	<string name="useinternetconnectiontrue">The application will be allowed to use network communication to display more information</string>
+	<string name="useinternetconnectionfalse">The application will not be allowed to use network communication to display more information</string>
+	<string name="noconnectionallowed">The application can not perform this action because you have not allowed it to use network communication to display more information</string>
+	<string name="homelogintext">Associate the application to my Liseron\'s account to identify my observations</string>
+	<string name="logindialogname">User name</string>
+	<string name="logindialogpass">Password</string>
+	<string name="connectiondenied">Connection refused</string>
+	<string name="connectionsuccedmessage">Logged in as :</string>
+	<string name="logindeconnect">Deconnection succeed</string>
+	<string name="buttonToSync">Synchronization</string>
+	<string name="synctitleobservation">Observations(s)</string>
+    <string name="synctitleform">Update campaigns</string>
+    <string name="synctitlespecies">Update the authentication help</string>
+	<string name="lastupdate">Updated :</string>
+	<string name="sendobservation">Send my observations</string>
+	<string name="updatecompleted">Update completed</string>
+	<string name="checkforupdate">Update</string>
+	<string name="nolastupdatedate">never done</string>
+	<string name="connectionsuccedtoast">Connection succeed</string>
+	<string name="nodescriptionavailable">No description filled</string>
+	<string name="selectcampaign">Select a campaign</string>
+	<string name="selectspecies">Select a species</string>
+	<string name="selectform">Select a form</string>
+	<string name="begindate">From : </string>
+	<string name="enddate">To : </string>
+	<string name="updateloading">Update in progress</string>
+	<string name="deleteloading">Delete in progress</string>
+	<string name="nosearchresult">No result</string>
+	<string name="syncspeciesneeded">An update of the help authentication is needed</string>
+	<string name="synccampaignsalertdialogtitle">Updateing campaigns</string>
+	<string name="nocampaign">No data available. Please do a synchronization.</string>
+	<string name="syncareuptodate">All your observations are synchronized</string>
+	<string name="synctosend">observation to send.</string>
+	<string name="multiplesynctosend">observations to send.</string>
+	<string name="currentlysendingobservation">Uploading to the server</string>
+	<string name="obssended">The server has received your data</string>
+	<string name="titleobservationsubmit">Make an observation</string>
+	<string name="infoobservationsubmit">Information about the bservation</string>
+	<string name="saveobservation">Save</string>
+	<string name="oscampaign">Campaign :</string>
+	<string name="osspecies">Species :</string>
+	<string name="osform">Form :</string>
+	<string name="ostitlefield">Fields</string>
+	<string name="hinttext">Some text</string>
+	<string name="hintnumeric">A number</string>
+	<string name="hintlist">Select an item</string>
+	<string name="observationformnotvalid">Those fields are invalid :</string>
+	<string name="observationcommenttext">You can write what you want :</string>
+	<string name="observationsaved">Observation has been saved. You can still edit it.</string>
+	<string name="fieldrequired">mandatory</string>
+	<string name="geolocalisationbutton">Geolocate</string>
+	<string name="photobutton">Photo</string>
+	<string name="phototaken">Photo has been saved</string>
+	<string name="mandatoryimage">The photo is mandatory</string>
+	<string name="nospeciesorformcampaign">It\'s not possible to make an observation for this campaign.</string>
+	<string name="tvlocationtitle">Current position</string>
+	<string name="tvphototitle">Associated photo</string>
+	<string name="locationloading">Getting the position in progress…</string>
+	<string name="mandatorylocation">Location is mandatory</string>
+	<string name="locationsourcechoice">What do you want to use ?</string>
+	<string name="locationsourcegps">Automatic (GPS or network)</string>
+	<string name="locationsourcemano">Manual location</string>
+	<string name="alertdialogsetlatlong">Enter latitude and longitude</string>
+	<string name="alertdialogsetadress">Enter an approximative adress</string>
+	<string name="alertdialogadresshint">Sherwood, Nottingham</string>
+	<string name="alertdialoglat">Lat.</string>
+	<string name="alertdialoglong">Long.</string>
+	<string name="alertdialoglocationtitle">Use one of the two possibilities for your location</string>
+	<string name="geocodingnoresult">No result for this adress</string>
+	<string name="invalidvalues">Action impossible, some fields are invalid</string>
+	<string name="modify">Edit</string>
+	<string name="adlogin">Log in</string>
+	<string name="adcreate">Register</string>
+	<string name="adassociate">What do you want to do ?</string>
+	<string name="adcreationtitle">Create an account</string>
+	<string name="allmandatory">All fields are mandatory</string>
+	<string name="login">Login</string>
+	<string name="passwd">Password</string>
+	<string name="passwdconfirm">Password (confirmation)</string>
+	<string name="email">E-mail</string>
+	<string name="myobservation">My observations</string>
+	<string name="noobservation">No observation saved</string>
+	<string name="modificationnotallowed">Observation has already been sent to the server, you can\'t edit it anymore</string>
+	<string name="associateaccount">Log in</string>
+	<string name="logoff">Log off</string>
+	<string name="delete">Do you want to delete this observation ?</string>
+	<string name="alreadysent">Suppression impossible. Observation has already been sent to the server.</string>
+	<string name="observationdeleted">Observation deleted</string>
+	<string name="authentificationneeded">You have to be logged in.</string>
+	<string name="congrats">KONAMI !</string>
+    <string name="nostress">You have well performed the KONAMI code ! Congratulations !</string>
+	<string name="obswithoutcampaign">Observation</string>
+	<string name="selectedspeciesneeded">You have to choose a species</string>
+	<string name="nofilled">Unspecified</string>
+	<string name="doubletapquit">Type "back" again to quit</string>
+	<string name="wronglat">Latitude invalid</string>
+	<string name="wronglong">Longitude invalid</string>
+	<string name="home">Home</string>
+	<string name="takephoto">Camera</string>
+	<string name="choosephoto">Browse…</string>
+	<string name="photosource">Source ?</string>
+	<string name="helppage">Help</string>
+	<string name="param">Parameters</string>
+	<string name="wrongmail">E-mail is invalid :</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+

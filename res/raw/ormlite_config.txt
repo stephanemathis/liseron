@@ -1,0 +1,307 @@
+#
+# generated on 2012/06/12 09:41:46
+#
+# --table-start--
+dataClass=fr.rocknscrum.liseronmobile.classification.Family
+tableName=Family
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=name
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=description
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=genres
+foreignCollection=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=fr.rocknscrum.liseronmobile.classification.Genre
+tableName=Genre
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=name
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=description
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=family
+canBeNull=false
+foreign=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=species
+foreignCollection=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=fr.rocknscrum.liseronmobile.classification.Species
+tableName=Species
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=name
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=description
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=indanger
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=genre
+canBeNull=false
+foreign=true
+useGetSet=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=fr.rocknscrum.liseronmobile.observation.Campaign
+tableName=Campaign
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=name
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=description
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=start
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=end
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=forms
+foreignCollection=true
+foreignCollectionEager=true
+# --field-end--
+# --field-start--
+fieldName=species
+dataPersister=SERIALIZABLE
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=fr.rocknscrum.liseronmobile.observation.Field
+tableName=Field
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=form
+canBeNull=false
+foreign=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=name
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=type
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=required
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=choices
+useGetSet=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=fr.rocknscrum.liseronmobile.observation.Form
+tableName=Form
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=name
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=description
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=campaign
+canBeNull=false
+foreign=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=fields
+foreignCollection=true
+foreignCollectionEager=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=fr.rocknscrum.liseronmobile.observation.Observation
+tableName=Observation
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=lattitude
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=longitude
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=comment
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=imagePath
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=valid
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=Form
+foreign=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=species
+canBeNull=false
+foreign=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=values
+foreignCollection=true
+foreignCollectionEager=true
+# --field-end--
+# --field-start--
+fieldName=date
+useGetSet=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=fr.rocknscrum.liseronmobile.observation.Value
+tableName=Value
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=value
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=observation
+canBeNull=false
+foreign=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=field
+canBeNull=false
+foreign=true
+useGetSet=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=fr.rocknscrum.liseronmobile.tools.ConfigClass
+tableName=ConfigClass
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=userName
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=userFirstName
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=idUser
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=login
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=isLoggedIn
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=dateUpdateForm
+useGetSet=true
+# --field-end--
+# --field-start--
+fieldName=dateUpdateSpecies
+useGetSet=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
